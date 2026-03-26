@@ -18,22 +18,22 @@ A two-part system designed to automate the collection and documentation of netwo
 #### Components
 
 **Data Collection**
-- IDF-Book-Data-Pull  
-- Interfaces with network devices to collect infrastructure data    
-- Correlates device information with DNS  
+- IDF-Book-Data-Pull
+- Interfaces with network devices to collect infrastructure data
+- Correlates device information with DNS
 
 **Documentation Generation**
-- IDF-Book-Generator  
-- Transforms collected data into structured, usable formats  
-- Generates standardized PDF documentation per IDF  
+- IDF-Book-Generator
+- Transforms collected data into structured, usable formats
+- Generates standardized PDF documentation per IDF
 
 #### Purpose
 This pipeline replaces manual network documentation processes with a structured, repeatable workflow, improving consistency and reducing manual effort.
 
 ```mermaid
-graph TD
-A[Data Pull] --> B[Processing]
-B --> C[PDF Generation]
+graph TD;
+A[Data Pull] --> B[Processing];
+B --> C[PDF Generation];
 ```
 
 ---
@@ -46,9 +46,9 @@ A standalone automation tool designed to validate workstation status and generat
 > Provides real-time visibility into system readiness, reducing manual tracking and simplifying coordination effort.
 
 #### What It Does
-- Performs validation checks across multiple systems  
-- Verifies project status and system readiness  
-- Generates structured reports (e.g., Excel) for operational decision-making 
+- Performs validation checks across multiple systems
+- Verifies project status and system readiness
+- Generates structured reports (e.g., Excel) for operational decision-making
 
 #### Purpose
 Provides visibility into system readiness and supports coordination between IT, operations, and maintenance teams.
@@ -57,16 +57,16 @@ Provides visibility into system readiness and supports coordination between IT, 
 
 ## Technologies Used
 
-- Python  
-- Bash  
-- Network Device CLI / API Interaction  
-- Data Processing & Reporting  
+- Python
+- Bash
+- Network Device CLI / API Interaction
+- Data Processing & Reporting
 
 ---
 
 ## Summary
 
 These projects demonstrate practical application of automation to:
-- Replace manual processes  
-- Improve operational visibility  
+- Replace manual processes
+- Improve operational visibility
 - Standardize infrastructure documentation
