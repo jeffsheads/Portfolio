@@ -34,6 +34,7 @@ This pipeline replaces manual network documentation processes with a structured,
 graph TD
 A[Data Pull] --> B[Processing]
 B --> C[PDF Generation]
+```
 
 ---
 
