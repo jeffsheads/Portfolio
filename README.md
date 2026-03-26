@@ -32,8 +32,8 @@ This pipeline replaces manual network documentation processes with a structured,
 
 ```mermaid
 graph TD;
-A[Data Pull] --> B[Processing];
-B --> C[PDF Generation];
+  A[Data Pull] --> B[Processing];
+  B --> C[PDF Generation];
 ```
 
 ---
