@@ -1,6 +1,6 @@
 # Network Automation Portfolio
 
-This portfolio highlights automation solutions designed to eliminate manual processes and improve visibility across network and operational environments.
+This portfolio showcases automation solutions designed to eliminate manual processes and improve visibility across network and operational environments.
 
 ## Projects
 
@@ -8,7 +8,7 @@ This portfolio highlights automation solutions designed to eliminate manual proc
 
 ### Network Documentation Automation Pipeline
 
-A two-part system designed to automate the collection and documentation of network infrastructure data.
+A two-part automation pipeline designed to collect, process, and generate network infrastructure documentation.
 > Eliminates manual network documentation by automating data collection and standardized output generation.
 
 **Repositories:**
@@ -32,8 +32,8 @@ This pipeline replaces manual network documentation processes with a structured,
 
 ```mermaid
 graph TD;
-  A[Data Pull] --> B[Processing];
-  B --> C[PDF Generation];
+  A[Switch Data + DNS] --> B[Processing Engine];
+  B --> C[PDF Generation (IDF Books)];
 ```
 > If the diagram does not render, see workflow: Data Pull → Processing → PDF Generation
 
@@ -71,3 +71,7 @@ These projects demonstrate practical application of automation to:
 - Replace manual processes
 - Improve operational visibility
 - Standardize infrastructure documentation
+
+## Context
+
+These tools were developed to solve real operational challenges in enterprise environments, including automation of network documentation and system validation workflows.
