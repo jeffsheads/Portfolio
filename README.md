@@ -31,12 +31,9 @@ A two-part system designed to automate the collection and documentation of netwo
 This pipeline replaces manual network documentation processes with a structured, repeatable workflow, improving consistency and reducing manual effort.
 
 ```mermaid
-
 graph TD
 A[Data Pull] --> B[Processing]
 B --> C[PDF Generation]
-
-```markdown
 
 ---
 
