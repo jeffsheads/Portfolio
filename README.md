@@ -1,56 +1,67 @@
-# Network Automation & Documentation System
+# Network Automation Portfolio
 
-This project is a collection of Python-based automation tools designed to eliminate manual network documentation and validation processes.
+This portfolio highlights automation solutions designed to eliminate manual processes and improve visibility across network and operational environments.
 
-## Overview
+## Projects
 
-This system automates the collection and documentation of network infrastructure data, replacing manual processes with a structured, repeatable workflow.
+---
 
-## Core Pipeline
+### Network Documentation Automation Pipeline
 
-### 1. Data Collection
-**Repo:** IDF-Book-Data-Pull  
+A two-part system designed to automate the collection and documentation of network infrastructure data.
+> Eliminates manual network documentation by automating data collection and standardized output generation.
+
+**Repositories:**
+- [IDF-Book-Data-Pull](https://github.com/jeffsheads/IDF-Book-Data-Pull)
+- [IDF-Book-Generator](https://github.com/jeffsheads/IDF-Book-Generator)
+
+#### Components
+
+**Data Collection**
+- IDF-Book-Data-Pull  
 - Connects to network devices  
 - Collects infrastructure data  
 - Correlates device information with DNS  
 
-### 2. Documentation Generation
-**Repo:** IDF-Book-Generator  
+**Documentation Generation**
+- IDF-Book-Generator  
 - Processes collected data  
 - Generates standardized PDF documentation per IDF  
-- Produces consistent, repeatable outputs  
 
-## Independent Tool
+#### Purpose
+This pipeline replaces manual network documentation processes with a structured, repeatable workflow, improving consistency and reducing manual effort.
 
-### 3. Validation & Reporting
-**Repo:** KIVA-Check  
-- Performs validation checks across systems  
+---
+
+### Workstation Validation & Reporting Tool
+
+**Repo:** [KIVA-Check](https://github.com/jeffsheads/KIVA-Check)
+
+A standalone automation tool designed to validate workstation status and generate reports for operational coordination.
+> Provides real-time visibility into system readiness, reducing manual tracking and simplifying coordination effort.
+
+#### What It Does
+- Performs validation checks across multiple systems  
 - Verifies project status and system readiness  
-- Generates structured reports (e.g., Excel) for operational tracking  
+- Generates structured reports (e.g., Excel)  
 
-## Workflow
+#### Purpose
+Provides visibility into system readiness and supports coordination between IT, operations, and maintenance teams.
 
-1. Collect network data from devices  
-2. Process and generate documentation  
-
-Validation and reporting tools operate independently for operational visibility.
-
-## Key Features
-
-- End-to-end automation of network documentation  
-- Reduction of manual data collection and reporting  
-- Improved consistency and accuracy of infrastructure records  
-- Scalable and repeatable workflow design  
+---
 
 ## Technologies Used
 
 - Python  
 - Bash  
-- Network Device Interfaces (CLI/API)  
-- Data Processing & Transformation  
+- Network Device Interfaces  
+- Data Processing & Reporting  
 
-## Purpose
+---
 
-This system was developed to automate network documentation (IDF books) and improve operational visibility in a large-scale enterprise environment.
+## Summary
 
-It demonstrates practical application of automation to real-world infrastructure challenges.
+These projects demonstrate practical application of automation to:
+- Replace manual processes  
+- Improve operational visibility  
+- Standardize infrastructure documentation
