@@ -18,12 +18,12 @@ A two-part automation pipeline designed to collect, process, and generate networ
 #### Components
 
 - **Data Collection**
-  - IDF-Book-Data-Pull
+  - **IDF-Book-Data-Pull**
   - Interfaces with network devices to collect infrastructure data
   - Correlates device information with DNS
 
 - **Documentation Generation**
-  - IDF-Book-Generator
+  - **IDF-Book-Generator**
   - Transforms collected data into structured, usable formats
   - Generates standardized PDF documentation per IDF
 
