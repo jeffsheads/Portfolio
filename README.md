@@ -33,7 +33,7 @@ This pipeline replaces manual network documentation processes with a structured,
 ```mermaid
 graph TD;
   A[Switch Data + DNS] --> B[Processing Engine];
-  B --> C[PDF Generation (IDF Books)];
+  B --> C[PDF Generation - IDF Books];
 ```
 > If the diagram does not render, see workflow: Data Pull → Processing → PDF Generation
 
