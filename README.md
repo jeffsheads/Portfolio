@@ -35,6 +35,7 @@ graph TD;
   A[Data Pull] --> B[Processing];
   B --> C[PDF Generation];
 ```
+> If the diagram does not render, see workflow: Data Pull → Processing → PDF Generation
 
 ---
 
